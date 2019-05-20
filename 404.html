@@ -1,0 +1,56 @@
+---
+title: "404"
+---
+<!-- ^ This resolves an issue with jekyll not importing the menubar without something up here -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Sets up responsive design elements -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxWeb</title>
+  <!-- Links the main stylesheet for this specific page -->
+  <link rel="stylesheet" href="css/404.css">
+  <!-- Uses Bootstrap Scripts-->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Used if there are properties which should be applied to everything -->
+  <div class="all">
+    <!-- Navigation Bar -->
+    {% include navBar.html %}
+    <!-- Creates the sites main block -->
+    <div class="mainBlock">
+      <!-- Creates a margin as both sides -->
+      <div class="container">
+        <!-- Creates a row in Bootstrap's grid system -->
+        <div class="row">
+          <!-- Creates a column -->
+          <div class="col">
+            <!-- Main Heading -->
+            <h1 id="mainHeading">404: Webpage not found</h1>
+          </div>
+        </div>
+        <!-- Creates a row -->
+        <div class="row">
+          <!-- Creates a blank column this is used to centre the button -->
+          <div class="col"></div>
+          <!-- Creates a column for the button -->
+          <div class="col">
+            <!-- Creates a link which in most respects acts as if it were a button using bootstrap's themes which returns to the homepage -->
+            <a role="button" class="btn btn-outline-light" href="index.html">Click here to return to the homepage</a>
+          </div>
+          <!-- Creates a blank column this is used to centre the button -->
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+---
+title: "bbcNewsPoster"
+dropdown: "projects"
+---
+<!-- ^ Sets the title to index for Jekyll, this is used for tell the menubar which field if any should be set as active. Sets dropdown to projects, this allows the dropdown projects to be active when the page is loaded. -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- Sets up responsive design elements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxWeb</title>
+    <!-- Links the main stylesheet for this specific page -->
+    <link rel="stylesheet" href="css/bbcNewsPoster.css">
+    <!-- Uses Bootstrap Scripts-->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Used if there are properties which should be applied to everything -->
+    <div class="all">
+      <!-- Navigation Bar -->
+      {% include navBar.html %}
+      <!-- Creates the sites main block -->
+      <div class="mainBlock">
+        <!-- Creates a margin as both sides -->
+        <div class="container">
+          <!-- Creates a row in Bootstrap's grid system -->
+          <div class="row">
+            <!-- Creates a column -->
+            <div class="col">
+              <!-- Main Heading -->
+              <h1 id="mainHeading">BBC News Poster</h1>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Creates a column which is active across all devices -->
+            <div class="col-sm">
+              <!-- Creates a centred image -->
+              <img src="images/bbcNewsPoster.png" alt="BBC News Poster Image" class="centreImage">
+            </div>
+            <div class="col-sm">
+              <!-- Standard Text -->
+              <p class="standardText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <!-- Centres the text and creates the row -->
+              <div class="row text-center">
+                <div class="col-sm">
+                  <!-- Grade in Bold -->
+                  <p class="standardText font-weight-bold">Grade: C3</p>
+                  <!-- Creates a link which in most respects acts as if it were a button using bootstrap's themes which allows you to download a pdf -->
+                  <a role="button" class="btn btn-outline-light" href="download/bbcNewsPosterLandscape.pdf" download>Download PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

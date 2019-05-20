@@ -1,0 +1,62 @@
+/* Imports the master file */
+@import url("master.css");
+
+/* Adds space between each container */
+.container {
+  padding-bottom: 40px;
+}
+
+/* Centres the subheading and adds space between it and the image */
+.subHeading {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Sets appropriate sizes for the headings and image elements for mobile phones */
+@media only screen and (max-width: 775px) {
+  #mainHeading {
+    font-size: 3em;
+  }
+
+  .subHeading {
+    font-size: 1.5em;
+  }
+
+  .roundedImage {
+    height: 200px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for tablets */
+@media only screen and (min-width: 775px) {
+  #mainHeading {
+    font-size: 4.5em;
+  }
+
+  .roundedImage {
+    height: 350px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for small windows on computers */
+@media only screen and (min-width: 1000px) {
+  #mainHeading {
+    font-size: 6em;
+  }
+
+  .roundedImage {
+    height: 350px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for large windows on computers */
+@media only screen and (min-width: 1200px) {
+  #mainHeading {
+    font-size: 7em;
+  }
+}
+
+/* Makes the image round and centred */
+.roundedImage {
+  border-radius: 50%;
+}

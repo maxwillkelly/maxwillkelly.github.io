@@ -1,0 +1,82 @@
+---
+title: "faq"
+---
+<!-- ^ Sets the title to index for Jekyll, this is used for tell the menubar which field if any should be set as active. -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- Sets up responsive design elements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxWeb</title>
+    <!-- Links the main stylesheet for this specific page -->
+    <link rel="stylesheet" href="css/faq.css">
+    <!-- Uses Bootstrap Scripts-->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Used if there are properties which should be applied to everything -->
+    <div class="all">
+      <!-- Navigation Bar -->
+      {% include navBar.html %}
+      <!-- Creates the sites main block -->
+      <div class="mainBlock">
+        <!-- Creates a margin as both sides -->
+        <div class="container">
+          <!-- Creates a row in Bootstrap's grid system -->
+          <div class="row">
+            <!-- Creates a column -->
+            <div class="col">
+              <!-- Main Heading -->
+              <h1 id="mainHeading">FAQ</h1>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Creates a column for 1/3 of the page -->
+            <div class="col-sm-4">
+              <!-- Question -->
+              <p class="subHeading">What is your full name?</p>
+            </div>
+            <!-- Creates a column for 2/3 of the page -->
+            <div class="col-sm-8">
+              <!-- Answer -->
+              <p class="standardText">Maxwill Lelan Kelly</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <p class="subHeading">What is your date of birth?</p>
+            </div>
+            <div class="col-sm-8">
+              <p class="standardText">2nd June 1999</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <p class="subHeading">Where are you from?</p>
+            </div>
+            <div class="col-sm-8">
+              <p class="standardText">This is quite a complex question. I was born in Hastings, East Sussex on the south coast of England. However, I moved from there when I was 5 to The Hague in the Netherlands and then to Wellington, New Zealand.
+                I moved to Aberdeen in 2012 where I went to secondary school. Now for University I'm studying in Dundee.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <p class="subHeading">Where are you from?</p>
+            </div>
+            <div class="col-sm-8">
+              <p class="standardText">This is quite a complex question. I was born in Hastings, East Sussex on the south coast of England. However, I moved from there when I was 5 to The Hague in the Netherlands and then to Wellington, New Zealand.
+                I moved to Aberdeen in 2012 where I went to secondary school. Now for University I'm studying in Dundee.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

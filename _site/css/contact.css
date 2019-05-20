@@ -1,0 +1,90 @@
+/* Imports the master file */
+@import url("master.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Adds space between each grid row */
+.row {
+  padding-bottom: 20px;
+}
+
+/* Styles social network images */
+.fa {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  /* Places text in the centre of the column */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Aligns the text with the rest of the font */
+  margin-bottom: 10px;
+}
+
+/* Disables html link styling */
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hides images for social networks for very small size screens*/
+@media only screen and (max-width: 575px) {
+  .fa {
+    visibility: hidden;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for mobile phones */
+@media only screen and (max-width: 775px) {
+  #mainHeading {
+    font-size: 3em;
+  }
+
+  .subHeading {
+    font-size: 1.5em;
+  }
+
+  .standardText {
+    font-size: 0.9em;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for tablets */
+@media only screen and (min-width: 775px) {
+  #mainHeading {
+    font-size: 4.5em;
+  }
+
+  .subHeading {
+    font-size: 2em;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for small windows on computers */
+@media only screen and (min-width: 1000px) {
+  #mainHeading {
+    font-size: 6em;
+  }
+
+  .subHeading {
+    font-size: 1.7em;
+  }
+
+  .standardText {
+    font-size: 1.3em;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for large windows on computers */
+@media only screen and (min-width: 1200px) {
+  #mainHeading {
+    font-size: 6em;
+  }
+
+  .subHeading {
+    font-size: 2em;
+  }
+
+  .standardText {
+    font-size: 1.6em;
+  }
+}

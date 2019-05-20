@@ -1,0 +1,42 @@
+---
+title: "index"
+---
+<!-- ^ Sets the title to index for Jekyll, this is used for tell the menubar which field if any should be set as active. This also resolves an issue with jekyll not importing the menubar without something up here -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Sets up responsive design elements -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxWeb</title>
+  <!-- Links the main stylesheet for this specific page -->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- Uses Bootstrap Scripts-->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Used if there are properties which should be applied to everything -->
+  <div class="all">
+    <!-- Navigation Bar -->
+    {% include navBar.html %}
+    <!-- Creates the sites main block -->
+    <div class="mainBlock">
+      <!-- Creates a margin as both sides -->
+      <div class="container">
+        <!-- Main Heading -->
+        <h1 id="mainHeading">Welcome to my site</h1>
+        <!-- Sub Heading -->
+        <h3 class="subHeading">Where dreams are created and broken</h3>
+        <!-- Creates a rounded image of me in the centre of the page -->
+        <img class="centreImage roundedImage justify-content-center" src="images/400x400FullFront.jpeg" alt="Max Kelly">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

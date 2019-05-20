@@ -1,0 +1,60 @@
+/* Master file used for all the site's pages */
+/* Imports css files for fonts and bootstrap used across the size */
+@import url("roboto.css");
+@import url("bootstrap-min.css");
+
+/* Menu Bar */
+nav {
+  /* Creates some space between the navigation bar and any content */
+  margin-bottom: 20px;
+}
+
+/* Sets the text colour for items that are being hovered upon or are active */
+nav a:hover, .active {
+  color: #F5F5F5;
+}
+
+/* Sets active colour for active fields */
+.active {
+  color: #F5F5F5;
+}
+
+/* Floats items to the left */
+.topNav li {
+  float: left;
+}
+
+/* Sets up horizontal top menu bar */
+.topNav li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Sets the blank form to the width of the bar's heading allowing the elements of the menu bar to be centred */
+.fillerHeading {
+  width: 77.44px;
+}
+
+/* Body elements */
+/* Sets background colour */
+body {
+  background-color: #0099FF;
+}
+
+/* Sets the text colour of the mainBlock to white */
+.mainBlock {
+  color: #FFF;
+}
+
+/* Centres the main heading */
+#mainHeading {
+  text-align: center;
+}
+
+/* Makes the image centred */
+.centreImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

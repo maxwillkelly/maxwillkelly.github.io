@@ -1,0 +1,133 @@
+<!-- ^ Sets the title to index for Jekyll, this is used for tell the menubar which field if any should be set as active. Sets dropdown to projects, this allows the dropdown projects to be active when the page is loaded. -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- Sets up responsive design elements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxWeb</title>
+    <!-- Links the main stylesheet for this specific page -->
+    <link rel="stylesheet" href="css/reversi.css">
+    <!-- Uses Bootstrap Scripts-->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Used if there are properties which should be applied to everything -->
+    <div class="all">
+      <!-- Navigation Bar -->
+      <!-- Navigation Bar -->
+<div class="topNav">
+  <!-- Creates a Bootstrap Navigation Bar -->
+  <!-- It is set to cover the entire length of the screen and use the dark theme -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Sets up the main title of the website -->
+    <a class="navbar-brand" href="index.html">MaxWeb</a>
+    <!-- Creates the navigation bar's toggler used on smaller screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Creates naviagation bar's main links and centres it in the page -->
+      <ul class="navbar-nav ml-auto mr-auto">
+        <!-- Creates an naviagation item -->
+        <li class="nav-item">
+          <!-- Creates an active link -->
+          
+          <a class="nav-link" href="index.html">Home</a>
+          
+        </li>
+        <!-- Creates an naviagation item -->
+        <li class="nav-item">
+          <!-- Creates an active link -->
+          
+          <a class="nav-link" href="about.html">About</a>
+          
+        </li>
+        <!-- Creates an naviagation item -->
+        <!-- <li class="nav-item"> -->
+          <!-- Creates an active link -->
+          <!--  -->
+          <!-- <a class="nav-link" href="photos.html">Photos</a>
+           -->
+        <!-- </li> -->
+        <!-- Creates the dropdown Menu -->
+        <li class="nav-item dropdown">
+          <!-- Creates the dropdown toggler  -->
+          
+          <a class="nav-link dropdown-toggle active" href="allProjects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          
+          <!-- Creates the dropdown menu -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <!-- Creates a dropdown item -->
+            <a class="dropdown-item" href="bbcNewsPoster.html">BBC News Poster</a>
+            <a class="dropdown-item" href="reversi.html">Reversi</a>
+            <!-- Seperates dropdown items -->
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="allProjects.html">All Projects</a>
+          </div>
+        </li>
+        <!-- Creates an naviagation item -->
+        <li class="nav-item">
+          <!-- Creates an active link -->
+          
+          <a class="nav-link" href="cv.html">CV</a>
+          
+        </li>
+        <!-- Creates an naviagation item -->
+        <li class="nav-item">
+          <!-- Creates an active link -->
+          
+          <a class="nav-link" href="faq.html">FAQ</a>
+          
+        </li>
+        <!-- Creates an naviagation item -->
+        <li class="nav-item">
+          <!-- Creates an active link -->
+          
+          <a class="nav-link" href="contact.html">Contact</a>
+          
+        </li>
+      </ul>
+      <!-- Used to make sure the navigation bar is aligned to the centre as the main title of website makes this off-centre -->
+      <form class="fillerHeading"></form>
+    </div>
+  </nav>
+</div>
+
+      <!-- Creates the sites main block -->
+      <div class="mainBlock">
+        <!-- Creates a margin as both sides -->
+        <div class="container">
+          <!-- Creates a row in Bootstrap's grid system -->
+          <div class="row">
+            <!-- Creates a column -->
+            <div class="col">
+              <h1 id="mainHeading">Reversi</h1>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Creates a column which is active across all devices -->
+            <div class="col-sm">
+              <!-- Centres the Reversi Image within the column -->
+              <img src="images/ReversiCoding.PNG" alt="Image of Reversi in Eclipse IDE" class="centreImage">
+            </div>
+            <div class="col-sm">
+              <!-- Main Paragraph -->
+              <p class="standardText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

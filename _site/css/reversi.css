@@ -1,0 +1,79 @@
+/* Imports the master file */
+@import url("master.css");
+
+/* Adds space between each grid row */
+.row {
+  padding-bottom: 20px;
+}
+
+/* Disables html link styling */
+a, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* Sets appropriate sizes for the headings and image elements for mobile phones */
+@media only screen and (max-width: 775px) {
+  #mainHeading {
+    font-size: 3em;
+  }
+
+  .standardText {
+    font-size: 0.7em;
+  }
+
+  img {
+    height: auto;
+    width: 300px;
+    /* Seperates image from main text */
+    padding-bottom: 20px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for tablets */
+@media only screen and (min-width: 775px) {
+  #mainHeading {
+    font-size: 3.5em;
+  }
+
+  .standardText {
+    font-size: 0.85em;
+  }
+
+  img {
+    height: auto;
+    width: 350px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for small windows on computers */
+@media only screen and (min-width: 1000px) {
+  #mainHeading {
+    font-size: 5em;
+  }
+
+  .standardText {
+    font-size: 1em;
+  }
+
+  img {
+    height: auto;
+    width: 390px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for large windows on computers */
+@media only screen and (min-width: 1200px) {
+  #mainHeading {
+    font-size: 6em;
+  }
+
+  .standardText {
+    font-size: 1.3em;
+  }
+
+  img {
+    height: auto;
+    width: 450px;
+  }
+}

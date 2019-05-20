@@ -1,0 +1,83 @@
+---
+title: "photos"
+---
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Sets up responsive design elements -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxWeb</title>
+  <!-- Links the main stylesheet for this specific page -->
+  <link rel="stylesheet" href="css/photos.css">
+  <!-- Uses Bootstrap Scripts-->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Used if there are properties which should be applied to everything -->
+  <div class="all">
+    <!-- Navigation Bar -->
+    {% include navBar.html %}
+    <!-- Creates the sites main block -->
+    <div class="mainBlock">
+      <!-- Creates a margin as both sides -->
+      <div class="container">
+        <!-- Creates a row in Bootstrap's grid system -->
+        <div class="row">
+          <!-- Creates a column -->
+          <div class="col">
+            <h1 id="mainHeading">Photos</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/400x400FullFront.jpeg" alt="Max Kelly holding chin">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/professionalFront.jpg" alt="Max Kelly showing font">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/parrot.jpg" alt="Max Kelly with parrot on his shoulder">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/mario.jpg" alt="Max Kelly holding chin">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/400x400FullFront.jpeg" alt="Max Kelly holding chin">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/400x400FullFront.jpeg" alt="Max Kelly holding chin">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/400x400FullFront.jpeg" alt="Max Kelly holding chin">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/400x400FullFront.jpeg" alt="Max Kelly holding chin">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

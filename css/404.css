@@ -1,0 +1,35 @@
+/* Imports the master file */
+@import url("master.css");
+
+/* Adds space between each grid row */
+.row {
+  padding-bottom: 20px;
+}
+
+/* Sets appropriate sizes for the headings and image elements for mobile phones */
+@media only screen and (max-width: 775px) {
+  #mainHeading {
+    font-size: 2.5em;
+  }
+
+  /* Overwrites Bootstrap's large button class to make the button smaller */
+  .btn-lg {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for tablets */
+@media only screen and (min-width: 775px) {
+  #mainHeading {
+    font-size: 3.5em;
+  }
+}
+
+/* Sets appropriate sizes for the headings and image elements for computers */
+@media only screen and (min-width: 1000px) {
+  #mainHeading {
+    font-size: 5em;
+  }
+}
